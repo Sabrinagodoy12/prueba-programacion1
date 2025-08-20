@@ -6,3 +6,4 @@ exponente = int(input("Ingrese el exponente: "))
 potencia = base**exponente
 
 print (f"{base} elevado a {exponente} es = {potencia}")
+
