@@ -1,31 +1,31 @@
 # Generar una lista con booleanos que indiquen que es true si es par y false si es impar
 
-# numeros = [4, 7, 10, 13, 22]
-# listanueva = []
+numeros = [4, 7, 10, 13, 22]
+listanueva = []
 
-# for i in numeros:
-#     if i % 2 == 0:
-#         listanueva.append(True)
-#     else:
-#         listanueva.append(False)
+for i in numeros:
+    if i % 2 == 0:
+        listanueva.append(True)
+    else:
+        listanueva.append(False)
 
-# print(f"La lista de números es: {numeros} \nLa nueva lista es: {listanueva}")
+print(f"La lista de números es: {numeros} \nLa nueva lista es: {listanueva}")
 
 
 #Estructura Match --> según cada color qué es lo que debe ejecutarse
 
-# colores = ["rojo", "azul", "verde", "blanco"]
+colores = ["rojo", "azul", "verde", "blanco"]
 
-# for color in colores:
-#     match color:
-#         case "rojo" | "azul" | "amarillo":     # la --> | es como un or 
-#             print(f"el {color} es color primario")
-#         case "verde" | "naranja" | "violeta":
-#             print(f"el {color} es color secundario")
-#         case "blanco" | "negro":
-#             print(f"el {color} no es un color primario ni secundario")
-#         case _:        # case _: --> significa que no es ninguna de las anteriores, como un else
-#             print(f"el {color} color desconocido")
+for color in colores:
+    match color:
+        case "rojo" | "azul" | "amarillo":     # la --> | es como un or 
+            print(f"el {color} es color primario")
+        case "verde" | "naranja" | "violeta":
+            print(f"el {color} es color secundario")
+        case "blanco" | "negro":
+            print(f"el {color} no es un color primario ni secundario")
+        case _:        # case _: --> significa que no es ninguna de las anteriores, como un else
+            print(f"el {color} color desconocido")
 
 
 #Crear un menú de opciones en la que el usuario pueda elegir e ir variando entre las opciones hasta que presione para salir del menú.
