@@ -1,0 +1,19 @@
+#Genera un archivo .txt y le agrega texto
+print("1. Escribiendo archivo")
+archivo_productos = open("productos.txt", "w")
+archivo_productos.write("Lapicera\n")
+archivo_productos.write("Cuaderno\n")
+archivo_productos.close()
+
+#Lee el archivo y lo muestra en pantalla
+print("2. Leyendo archivo y mostrando contenido")
+archivo_productos = open("productos.txt", "r")
+contenido = archivo_productos.read()
+print(contenido)
+archivo_productos.close()
+
+#Lectura segura de archivo
+print("Leyendo archivo con with")
+with open("productos.txt", "r") as archivo:
+    contenido = archivo.read()
+    print(contenido)

@@ -58,3 +58,4 @@ while opcion != 4:
 # Dada la lista numeros = [10, 20, 30, 40, 50, 60, 70, 80, 90], utiliza slicing para obtener: los primeros tres elementos, los últimos dos elementos, y los elementos en posiciones pares.
 
 # Convierte la cadena "Python,Java,C++,JavaScript,PHP" en una lista de lenguajes de programación utilizando split(). Luego añade "Ruby" a la listae imprime los lenguajes por consola.
+
